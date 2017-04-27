@@ -31,7 +31,7 @@ module.exports = NodeHelper.create({
     	request({ 
     	          url:"http://www.zitate-online.de/neuestezitate.xml",
     	          method: 'GET',
-    	          setEncoding: ('ISO-8859-1', 'UTF8')
+    	          encoding: null
     	        }, (error, response, body) => {
             if (!error && response.statusCode === 200) {
     console.log(body);
