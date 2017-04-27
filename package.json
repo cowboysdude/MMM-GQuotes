@@ -1,8 +1,8 @@
 {
-  "name": "mmm-dailyquote",
+  "name": "mmm-gquotes",
   "version": "1.0.2",
   "description": "News with pictures and brief descriptions for MM2",
-  "main": "MMM-DailyQuote.js",
+  "main": "MMM-GQuote.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
