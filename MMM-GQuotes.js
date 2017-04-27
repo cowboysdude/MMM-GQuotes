@@ -69,11 +69,6 @@ console.log(gquote);
          mainquote.classList.add("small", "bright", "content");
          mainquote.innerHTML = gquote.description[0];
          top.appendChild(mainquote);
-
-         var author = document.createElement("p");
-         author.classList.add("xsmall", "bright");
-         author.innerHTML = "~ "+gquote.author;
-         top.appendChild(author);
 		}
          wrapper.appendChild(top);
          return wrapper;
