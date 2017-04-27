@@ -1,5 +1,5 @@
  /* Magic Mirror
-    * Module: MMM-MMM-GQuotes
+    * Module: MMM-GQuotes
     *
     * By cowboysdude
     * 
@@ -94,20 +94,6 @@ console.log(gquote);
 
          this.getGQuote(this.config.initialLoadDelay);
      },
-
-       deUmlaut: function (value){
-       value = value.replace(/ä/g, 'ae');
-       value = value.replace(/ö/g, 'oe');
-       value = value.replace(/ü/g, 'ue');
-       value = value.replace(/ß/g, 'ss');
-       value = value.replace(/ /g, '-');
-       value = value.replace(/\./g, '');
-       value = value.replace(/,/g, '');
-       value = value.replace(/\(/g, '');
-       value = value.replace(/\)/g, '');
-       return value;
-      }, 
-
 
      getGQuote: function() {
          this.sendSocketNotification('GET_GQUOTE');
