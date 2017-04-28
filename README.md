@@ -7,10 +7,12 @@ MagicMirror 2 Daily Quote in German :)
 
 In terminal window:
 ~MagicMirror/modules
-git clone https://github.com/cowboysdude/MMM-GQuotes
+
+     git clone https://github.com/cowboysdude/MMM-GQuotes
 
 cd ~MagicMirror/modules/MMM-GQuotes
-npm install
+
+    npm install
 
 # config.js entry
 
