@@ -3,7 +3,7 @@
 
 MagicMirror 2 Daily Quote in German :)
 
-#Install
+# Install
 
 In terminal window:
 ~MagicMirror/modules
@@ -12,7 +12,7 @@ git clone https://github.com/cowboysdude/MMM-GQuotes
 cd ~MagicMirror/modules/MMM-GQuotes
 npm install
 
-#config.js entry
+# config.js entry
 
             { 
             disabled: false,
@@ -28,7 +28,7 @@ npm install
 
 
 
-#Custom css you can add and change appearance are:
+# Custom css you can add and change appearance are:
 
 .MMM-GQuotes .header
 .MMM-GQutoes .content
