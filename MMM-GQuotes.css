@@ -1,12 +1,9 @@
 
-MMM-MMM-GQuotes .header {
+MMM-GQuotes .header {
 	text-align: center;
 	font-size: 20px;
 }
-MMM-MMM-GQuotes .content {
+MMM-GQuotes .content {
   width: 100%;
   background-position: 11px 0;
-}
-h3:first-letter {
-    text-transform:capitalize;
 }
