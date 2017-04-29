@@ -1,4 +1,4 @@
-  /* Magic Mirror
+   /* Magic Mirror
     * Module: MMM-MMM-GQuotes
     *
     * By cowboysdude
@@ -38,12 +38,6 @@ Module.register("MMM-GQuotes", {
 
       getDom: function() {
 
-         var gquote = this.gquote;
-         for (var i = 0; i < gquote.length; i++) {
-            
-         var gquote = gquote[i];
-
-
          var wrapper = document.createElement("div");
          wrapper.style.maxWidth = this.config.maxWidth;
          
@@ -60,6 +54,11 @@ Module.register("MMM-GQuotes", {
          wrapper.appendChild(header);
 		 }
 		 
+		 var gquote = this.gquote;
+         for (var i = 0; i < gquote.length; i++) {
+            
+         var gquote = gquote[i];
+		 
          var top = document.createElement("div");
 
          var mainquote = document.createElement("h3");
@@ -68,7 +67,7 @@ Module.register("MMM-GQuotes", {
          top.appendChild(mainquote);
          
          var mainAuthor = document.createElement("h3");
-         mainAuthor.classList.add("xsmall", "bright", "content");
+         mainAuthor.classList.add("xsmall", "bright", "author");
          mainAuthor.innerHTML = "~ "+gquote.creator[0];
          top.appendChild(mainAuthor);
 
