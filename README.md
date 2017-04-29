@@ -22,7 +22,6 @@ cd ~MagicMirror/modules/MMM-GQuotes
 # config.js entry
 
             { 
-            disabled: false,
             module: 'MMM-GQuotes', 
             position: 'middle_center', 
             config: { 
