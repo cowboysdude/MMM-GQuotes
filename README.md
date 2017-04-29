@@ -40,7 +40,7 @@ cd ~MagicMirror/modules/MMM-GQuotes
 .MMM-GQuotes .header and .MMM-GQuotes .content and .MMM-GQuotes .author
 
 # Custom CSS Example: 
-[changes go in ~MagicMirror/css/custom.css]
+    [changes go in ~MagicMirror/css/custom.css]
     .MMM-GQuotes .content {
     color: #f0f0f0;
     }
