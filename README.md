@@ -14,6 +14,11 @@ cd ~MagicMirror/modules/MMM-GQuotes
 
     npm install
 
+# Update
+    ~MagicMirror/modules/MMM-GQuotes
+     git pull
+
+
 # config.js entry
 
             { 
