@@ -32,4 +32,4 @@ cd ~MagicMirror/modules/MMM-GQuotes
 
 # Custom css you can add and change appearance are:
 
-.MMM-GQuotes .header and .MMM-GQutoes .content
+.MMM-GQuotes .header and .MMM-GQuotes .content and .MMM-GQuotes .author
