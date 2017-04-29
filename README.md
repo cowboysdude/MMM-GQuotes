@@ -41,6 +41,7 @@ cd ~MagicMirror/modules/MMM-GQuotes
 
 # Custom CSS Example: 
     [changes go in ~MagicMirror/css/custom.css]
+    
     .MMM-GQuotes .content {
     color: #f0f0f0;
     }
