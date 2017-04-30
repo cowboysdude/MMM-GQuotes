@@ -63,13 +63,13 @@ Module.register("MMM-GQuotes", {
 
          var mainquote = document.createElement("h3");
          mainquote.classList.add("small", "bright", "content");
-         mainquote.innerHTML = gquote.title[0];
+         mainquote.innerHTML = gquote.description[0];
          top.appendChild(mainquote);
          
-         var mainAuthor = document.createElement("h3");
-         mainAuthor.classList.add("xsmall", "bright", "author");
-         mainAuthor.innerHTML = "~ "+gquote.creator[0];
-         top.appendChild(mainAuthor);
+         //var mainAuthor = document.createElement("h3");
+         //mainAuthor.classList.add("xsmall", "bright", "author");
+         //mainAuthor.innerHTML = "~ "+gquote.creator[0];
+         //top.appendChild(mainAuthor);
 
 		}
          wrapper.appendChild(top);
