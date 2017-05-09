@@ -9,7 +9,7 @@ Module.register("MMM-GQuotes", {
 
        // Module config defaults.
        defaults: {
-           updateInterval: 12*60*60*1000, // every 12 hours
+           updateInterval: 60*60*1000, // every 1 hour
            animationSpeed: 1000,
            initialLoadDelay: 1130, // 0 seconds delay
            retryDelay: 2500,
