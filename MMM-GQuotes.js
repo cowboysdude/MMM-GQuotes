@@ -9,7 +9,7 @@ Module.register("MMM-GQuotes", {
 
        // Module config defaults.
        defaults: {
-           updateInterval: 60*60*1000, // every 1 hour
+           updateInterval: 24*60*60*1000, // every 24 hours
            animationSpeed: 1000,
            initialLoadDelay: 1130, // 0 seconds delay
            retryDelay: 2500,
@@ -63,13 +63,14 @@ Module.register("MMM-GQuotes", {
 
          var mainquote = document.createElement("h3");
          mainquote.classList.add("small", "bright", "content");
-         mainquote.innerHTML = gquote.description[0];
+         mainquote.innerHTML = gquote.description[0].replace( "("+gquote.creator[0]+")", "");
          top.appendChild(mainquote);
          
-         //var mainAuthor = document.createElement("h3");
-         //mainAuthor.classList.add("xsmall", "bright", "author");
-         //mainAuthor.innerHTML = "~ "+gquote.creator[0];
-         //top.appendChild(mainAuthor);
+         
+         var mainAuthor = document.createElement("h3");
+         mainAuthor.classList.add("xsmall", "bright", "author");
+         mainAuthor.innerHTML = "~ "+gquote.creator[0];
+         top.appendChild(mainAuthor);
 
 		}
          wrapper.appendChild(top);
@@ -80,6 +81,7 @@ Module.register("MMM-GQuotes", {
      processGQuote: function(data) {
          this.today = data.Today;
          this.gquote = data;
+console.log(this.gquote);
          this.loaded = true;
      },
 
